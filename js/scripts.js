@@ -1,3 +1,44 @@
+
+// Business Logic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// User Interface Logic
+
+$(document).ready(function() {
+  $("#formOne").submit(function(event){
+    const inputReceived = $("input#number").val();
+    $("#number").number(inputReceived.toString());
+    //event.preventDefault();
+      
+  });
+});
+
+
+
+
+
+
+
+
+
+
 // Business Logic
 
 //function robot(variable1) {
