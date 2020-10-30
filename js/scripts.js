@@ -1,35 +1,36 @@
 // Business Logic
 
-function robot(variable1) {
-  let number = [];
-  for (let variable2 = 0; variable2 <= variable1; variable2++) {
-    number.push();
-    if ((number[variable2]).match("3")) {
-      number[variable2] = ("won't you be my neighbor?");
-    }
-  }
-return number;
-}
-
-
-
-
-
+//function robot(variable1) {
+//  let number = [];
+//  for (let variable2 = 0; variable2 <= variable1; variable2++) {
+//    number.push(variable2);
+//    if ((number[variable2]).match("3")) {
+//      number[variable2] = ("won't you be my neighbor?");
+//    } else if ((number[variable2]).match("2")) {
+//      number[variable2] = ("boop");
+//    } else if ((number[variable2]).match("1")) {
+//      number[variable2] = ("beep");
+//    } else {
+//      number[variable2];
+////    }
+//  }
+//return number;
+//};
 
 
 
 // User Interface Logic
 
 
-$(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    event.preventDefault();
-    const usernumber = ("#number").valueOf();
-    let result = robot(usernumber);
-    $("output").text(result);
-    $("output").show();
-  });
-});
+//$(document).ready(function() {
+//  $("#formOne").submit(function(event) {
+//    event.preventDefault();
+////    const usernumber = $("#number").val();
+//    let result = robot(usernumber);
+////    $("output").text(result);
+//    $("output").show();
+//  });
+//});
 
 
 
